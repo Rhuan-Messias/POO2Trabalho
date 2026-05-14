@@ -3,7 +3,7 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
              version="3.0">
 
-    <persistence-unit name="LivrariaPU">
+    <persistence-unit name="trabalho">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         
         
@@ -22,7 +22,7 @@
             <property name="jakarta.persistence.jdbc.password" value="aluno" />
 
             
-            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.hbm2ddl.auto" value="create" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
         </properties>
